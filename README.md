@@ -22,7 +22,7 @@ This project was created as a school project.
 
 ### Initial setup
 Before you run the application for the first time, you need to adjust some values.  
-To find following files, see [File Structure] section.  
+To find following files, see [File Structure](https://github.com/wonilkim-wastaken/PBL5-TextRemoval?tab=readme-ov-file#file-structure) section.  
 
 - **`OCR_init.cs` & `MultiStepTextRemoval.cs`**
 
