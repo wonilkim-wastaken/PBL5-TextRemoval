@@ -166,3 +166,7 @@ When the experiment is initiated, black screen will be gone it will record parti
 
 After eight seconds, black screen will come back to cover the objects in the scene.  
 Also, recorded gaze will be saved in **'GazeLogs'** fodler.
+
+## Author
+Name: Wonil Kim
+Email: is0646ep@ed.ritsumei.ac.jp
