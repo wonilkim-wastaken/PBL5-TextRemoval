@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 public class MultiStepTextRemoval : MonoBehaviour
 {
-    public string pythonPath; // Absolute path to your Python intepreter
+    public string pythonPath; //Absolute path to your Python intepreter
     public string scriptPath = "PythonScripts/text_removal_mult.py";
     public string peakPath = "ocr_out/peak.txt";
 

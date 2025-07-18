@@ -6,7 +6,7 @@ using System.IO;
 
 public class OCR_init : MonoBehaviour
 {
-    public string pythonPath; // Absolute path to your Python intepreter
+    public string pythonPath; //Absolute path to your Python intepreter
     public string scriptPath = @"PythonScripts/text_detection.py";
     public TMP_Text statusText;
     private Process process;

@@ -20,6 +20,36 @@ This project was created as a school project.
 5. Once the project is added, click on it to launch the **Unity Editor**.  
 6. In the Unity Editor, press the **Play** button to start the application.
 
+### Initial setup
+Before you run the application for the first time, you need to adjust some values.  
+To find following files, see [File Structure](https://github.com/wonilkim-wastaken/PBL5-TextRemoval?tab=readme-ov-file#file-structure) section.  
+
+- **`OCR_init.cs` & `MultiStepTextRemoval.cs`**
+
+  These files contain the Python execution path and script path that must be adjusted before running the project for the first time.  
+  Locate the following lines near the top of the file:
+
+  ```csharp
+  public string pythonPath;
+  ```
+  Update path to match your own system, for example:
+   ```csharp
+  public string pythonPath = "C:/Users/USERNAME/AppData/Local/anaconda3/python.exe";
+   ```
+- **`text_detection.py` & `text_removal_mult.py`**  
+  These files contain path to Assets folder that must be adjusted before running the project for the first time.  
+  Locate the following line near the top of the file:
+
+  ```python
+  # Absolute path to your Assets folder
+  base_dir = ""
+  ```
+  Update path to match your own system, for example:
+  ```python
+  # Absolute path to your Assets folder
+  base_dir = "C:/Users/USERNAME/Desktop/PBL5-TextRemoval/Assets"
+  ```
+
 ## System Architecture
 This system integrates Unity for user interaction and gaze tracking with Python for text detection and text removal.  
 There are mainly three stages.
