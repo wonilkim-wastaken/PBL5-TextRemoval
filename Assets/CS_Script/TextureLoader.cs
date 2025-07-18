@@ -3,12 +3,13 @@ using System.IO;
 
 public class TextureLoader : MonoBehaviour
 {
-    public string baseFolderPath = @"C:\Users\is0646ep\Desktop\vr_env\Assets\ImageTextures";
-    
+    public string baseFolderPath =  @"ImageTextures";
+
     public string selectedSet;
 
     void Start()
     {
+        baseFolderPath = Path.Combine(Application.dataPath, baseFolderPath);
         string fullFolderPath = Path.Combine(baseFolderPath, selectedSet);
 
         ObjectTextureWatcher[] watchers = FindObjectsOfType<ObjectTextureWatcher>();

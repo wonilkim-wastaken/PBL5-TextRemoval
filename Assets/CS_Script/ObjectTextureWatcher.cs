@@ -4,13 +4,14 @@ using System.IO;
 public class ObjectTextureWatcher : MonoBehaviour
 {
     public string textureFileName;
-    public string folderPath = @"C:\Users\is0646ep\Desktop\vr_env\Assets\inpaint_out";
+    public string folderPath;
 
     private string fullPath;
     private Renderer meshRenderer;
 
     void Start()
     {
+        folderPath = Path.Combine(Application.dataPath, "inpaint_out");
         meshRenderer = GetComponent<Renderer>();
         fullPath = Path.Combine(folderPath, textureFileName);
     }

@@ -7,9 +7,9 @@ using System.Collections.Generic;
 
 public class MultiStepTextRemoval : MonoBehaviour
 {
-    public string pythonPath = @"C:\Users\is0646ep\AppData\Local\anaconda3\envs\textremoval\python.exe";
-    public string scriptPath = @"C:\Users\is0646ep\Desktop\vr_env\Assets\PythonScripts\text_removal_mult.py";
-    public string peakPath = @"C:\Users\is0646ep\Desktop\vr_env\Assets\ocr_out\peak.txt";
+    public string pythonPath;
+    public string scriptPath = "PythonScripts/text_removal_mult.py";
+    public string peakPath = "ocr_out/peak.txt";
 
     public TMP_Text statusText;
     private List<int> heightSteps = new List<int>();
@@ -20,7 +20,9 @@ public class MultiStepTextRemoval : MonoBehaviour
 
     void Start()
     {
-        //LoadTailStart();
+        scriptPath = Path.Combine(Application.dataPath, scriptPath);
+        peakPath = Path.Combine(Application.dataPath, peakPath);
+
         if (statusText != null)
             statusText.text = "";
     }

@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textureFileName: flyer01_out.png
-  folderPath: C:\Users\is0646ep\Desktop\vr_env\Assets\inpaint_out
+  folderPath: 
 --- !u!64 &71260626
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -623,7 +623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textureFileName: flyer05_out.png
-  folderPath: C:\Users\is0646ep\Desktop\vr_env\Assets\inpaint_out
+  folderPath: 
 --- !u!64 &562686430
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textureFileName: flyer06_out.png
-  folderPath: C:\Users\is0646ep\Desktop\vr_env\Assets\inpaint_out
+  folderPath: 
 --- !u!64 &874506169
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1403,7 +1403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textureFileName: flyer04_out.png
-  folderPath: C:\Users\is0646ep\Desktop\vr_env\Assets\inpaint_out
+  folderPath: 
 --- !u!64 &1134073528
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1880,7 +1880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textureFileName: flyer02_out.png
-  folderPath: C:\Users\is0646ep\Desktop\vr_env\Assets\inpaint_out
+  folderPath: 
 --- !u!64 &1311599876
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2070,7 +2070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pythonPath: C:\Users\is0646ep\AppData\Local\anaconda3\envs\textremoval\python.exe
-  scriptPath: C:\Users\is0646ep\Desktop\vr_env\Assets\PythonScripts\text_detection.py
+  scriptPath: PythonScripts/text_detection.py
   statusText: {fileID: 337694221}
   selectedSet: 1
 --- !u!114 &1505191077
@@ -2086,8 +2086,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pythonPath: C:\Users\is0646ep\AppData\Local\anaconda3\envs\textremoval\python.exe
-  scriptPath: C:\Users\is0646ep\Desktop\vr_env\Assets\PythonScripts\text_removal_mult.py
-  peakPath: C:\Users\is0646ep\Desktop\vr_env\Assets\ocr_out\peak.txt
+  scriptPath: PythonScripts/text_removal_mult.py
+  peakPath: ocr_out/peak.txt
   statusText: {fileID: 1282449261}
   selectedSet: 1
 --- !u!4 &1505191078
@@ -2117,7 +2117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9dae5df9de192b468513a376eecdfb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseFolderPath: C:\Users\is0646ep\Desktop\vr_env\Assets\ImageTextures
+  baseFolderPath: ImageTextures
   selectedSet: 1
 --- !u!1 &1604768511
 GameObject:
@@ -2227,7 +2227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textureFileName: flyer03_out.png
-  folderPath: C:\Users\is0646ep\Desktop\vr_env\Assets\inpaint_out
+  folderPath: 
 --- !u!64 &1708271935
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2528,7 +2528,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2138373590
 Transform:
   m_ObjectHideFlags: 0

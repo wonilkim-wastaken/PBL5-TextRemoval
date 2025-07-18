@@ -14,15 +14,18 @@ args = parser.parse_args()
 height = args.height
 selected_set = args.set
 
-if selected_set == "1":
-    input_dir = r"C:\Users\is0646ep\Desktop\vr_env\Assets\ImageTextures\1"
-elif selected_set == "2":
-    input_dir = r"C:\Users\is0646ep\Desktop\vr_env\Assets\ImageTextures\2"
-elif selected_set == "3":
-    input_dir = r"C:\Users\is0646ep\Desktop\vr_env\Assets\ImageTextures\3"
+base_dir = "C:/Users/is0646ep/Desktop/PBL5-TextRemoval/Assets"
+ImageTextures = os.path.join(base_dir, 'ImageTextures')
 
-ocr_dir = r"C:\Users\is0646ep\Desktop\vr_env\Assets\ocr_out"
-output_dir = r"C:\Users\is0646ep\Desktop\vr_env\Assets\inpaint_out"
+if selected_set == "1":
+    input_dir = os.path.join(ImageTextures, selected_set)
+elif selected_set == "2":
+    input_dir = os.path.join(ImageTextures, selected_set)
+elif selected_set == "3":
+    input_dir = os.path.join(ImageTextures, selected_set)
+
+ocr_dir = os.path.join(base_dir, 'ocr_out')
+output_dir = os.path.join(base_dir, 'inpaint_out')
 os.makedirs(output_dir, exist_ok=True)
 
 def process_image(tasks):

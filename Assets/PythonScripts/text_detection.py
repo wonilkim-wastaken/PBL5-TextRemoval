@@ -10,16 +10,19 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--set", type=str, required=True)
 args = parser.parse_args()
 
+base_dir = "C:/Users/is0646ep/Desktop/PBL5-TextRemoval/Assets"
+ImageTextures = os.path.join(base_dir, "ImageTextures")
+
 if args.set == "1":
-    input_dir = 'C:/Users/is0646ep/Desktop/vr_env/Assets/ImageTextures/1'
+    input_dir = os.path.join(ImageTextures, args.set)
 
 if args.set == "2":
-    input_dir = 'C:/Users/is0646ep/Desktop/vr_env/Assets/ImageTextures/2'
+    input_dir = os.path.join(ImageTextures, args.set)
 
 if args.set == "3":
-    input_dir = 'C:/Users/is0646ep/Desktop/vr_env/Assets/ImageTextures/3'
+    input_dir = os.path.join(ImageTextures, args.set)
 
-output_dir = 'C:/Users/is0646ep/Desktop/vr_env/Assets/ocr_out'
+output_dir = os.path.join(base_dir, "ocr_out")
 os.makedirs(output_dir, exist_ok=True)
 
 print("[START] Initializing OCR reader...", flush=True)
@@ -58,6 +61,6 @@ print(f"[FINISHED] All images processed. Total time: {total_elapsed:.2f} sec", f
 
 peak = global_peak_height(output_dir)
 int_peak = int(peak)
-with open("C:/Users/is0646ep/Desktop/vr_env/Assets/ocr_out/peak.txt", "w") as f:
+with open(os.path.join(output_dir, 'peak.txt'), "w") as f:
     f.write(f"{int_peak}")
 
