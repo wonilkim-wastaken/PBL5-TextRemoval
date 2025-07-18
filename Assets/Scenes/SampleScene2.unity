@@ -2072,7 +2072,7 @@ MonoBehaviour:
   pythonPath: C:\Users\is0646ep\AppData\Local\anaconda3\envs\textremoval\python.exe
   scriptPath: C:\Users\is0646ep\Desktop\vr_env\Assets\PythonScripts\text_detection.py
   statusText: {fileID: 337694221}
-  selectedSet: 3
+  selectedSet: 1
 --- !u!114 &1505191077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2089,7 +2089,7 @@ MonoBehaviour:
   scriptPath: C:\Users\is0646ep\Desktop\vr_env\Assets\PythonScripts\text_removal_mult.py
   peakPath: C:\Users\is0646ep\Desktop\vr_env\Assets\ocr_out\peak.txt
   statusText: {fileID: 1282449261}
-  selectedSet: 3
+  selectedSet: 1
 --- !u!4 &1505191078
 Transform:
   m_ObjectHideFlags: 0
@@ -2118,7 +2118,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseFolderPath: C:\Users\is0646ep\Desktop\vr_env\Assets\ImageTextures
-  selectedSet: 3
+  selectedSet: 1
 --- !u!1 &1604768511
 GameObject:
   m_ObjectHideFlags: 0
