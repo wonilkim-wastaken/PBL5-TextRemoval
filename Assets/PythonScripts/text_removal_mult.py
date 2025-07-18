@@ -15,16 +15,10 @@ height = args.height
 selected_set = args.set
 
 # Absolute path to your Assets folder
-base_dir = "C:/Users/is0646ep/Desktop/PBL5-TextRemoval/Assets"
+base_dir = ""
 ImageTextures = os.path.join(base_dir, 'ImageTextures')
 
-if selected_set == "1":
-    input_dir = os.path.join(ImageTextures, selected_set)
-elif selected_set == "2":
-    input_dir = os.path.join(ImageTextures, selected_set)
-elif selected_set == "3":
-    input_dir = os.path.join(ImageTextures, selected_set)
-
+input_dir = os.path.join(ImageTextures, selected_set)
 ocr_dir = os.path.join(base_dir, 'ocr_out')
 output_dir = os.path.join(base_dir, 'inpaint_out')
 os.makedirs(output_dir, exist_ok=True)

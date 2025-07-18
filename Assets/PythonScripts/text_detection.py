@@ -11,18 +11,10 @@ parser.add_argument("--set", type=str, required=True)
 args = parser.parse_args()
 
 # Absolute path to your Assets folder
-base_dir = "C:/Users/is0646ep/Desktop/PBL5-TextRemoval/Assets"
+base_dir = ""
 ImageTextures = os.path.join(base_dir, "ImageTextures")
 
-if args.set == "1":
-    input_dir = os.path.join(ImageTextures, args.set)
-
-if args.set == "2":
-    input_dir = os.path.join(ImageTextures, args.set)
-
-if args.set == "3":
-    input_dir = os.path.join(ImageTextures, args.set)
-
+input_dir = os.path.join(ImageTextures, args.set)
 output_dir = os.path.join(base_dir, "ocr_out")
 os.makedirs(output_dir, exist_ok=True)
 
