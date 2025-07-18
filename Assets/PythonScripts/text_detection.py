@@ -10,6 +10,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--set", type=str, required=True)
 args = parser.parse_args()
 
+# Absolute path to your Assets folder
 base_dir = "C:/Users/is0646ep/Desktop/PBL5-TextRemoval/Assets"
 ImageTextures = os.path.join(base_dir, "ImageTextures")
 

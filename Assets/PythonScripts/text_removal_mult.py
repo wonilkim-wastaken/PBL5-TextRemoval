@@ -14,6 +14,7 @@ args = parser.parse_args()
 height = args.height
 selected_set = args.set
 
+# Absolute path to your Assets folder
 base_dir = "C:/Users/is0646ep/Desktop/PBL5-TextRemoval/Assets"
 ImageTextures = os.path.join(base_dir, 'ImageTextures')
 
