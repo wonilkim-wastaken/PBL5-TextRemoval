@@ -50,6 +50,10 @@ To find following files, see [File Structure](https://github.com/wonilkim-wastak
   base_dir = "C:/Users/USERNAME/Desktop/PBL5-TextRemoval/Assets"
   ```
 
+  - **Opening the Scene**
+  If you don't see the scene after opening the file for the first time, go to Files -> Open Scene, and select SampleScene2.unity.  
+  This file is located under `Assets/Scene` folder
+
 ## System Architecture
 This system integrates Unity for user interaction and gaze tracking with Python for text detection and text removal.  
 There are mainly three stages.
