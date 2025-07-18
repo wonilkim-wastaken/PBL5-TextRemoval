@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d44972bad5c4f8c9d17e95f798abd2f, type: 3}
+  m_Name: AssetsGuidRegistry
+  m_EditorClassIdentifier: 
+  registry:
+    entries:
+    - object: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 9fdba2164cd7470393762468952baa65
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Standard
+    - object: {fileID: -2432090755550338912, guid: ce8525b80f68b5841acf57e5264c36fa, type: 3}
+      guid: ce8525b80f68b5841acf57e5264c36fa
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/small_board.mtl.obj:default
+    - object: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 9ca7dbaff7fe43e1825beead0c3497e0
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Legacy
+        Shaders/VertexLit
+    - object: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      guid: e96857dc8be346e2a6fe349d90c3875e
+      assetBundlePath: Builtin:UnityEngine.Material, UnityEngine.CoreModule:Resources/unity_builtin_extra:Default-Material
+    - object: {fileID: 2100000, guid: 611ac7d33b51e7b4291fc5d8b6d8c515, type: 2}
+      guid: 611ac7d33b51e7b4291fc5d8b6d8c515
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Images/Materials/flyer11.mat:flyer11
+    - object: {fileID: 2800000, guid: e655e75fd49eb9c4789f7899d9c941c4, type: 3}
+      guid: e655e75fd49eb9c4789f7899d9c941c4
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Images/flyer11.png:flyer11
+    - object: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+      guid: 018e5a4a1594499f97460c3287bd4fc4
+      assetBundlePath: Builtin:UnityEngine.Mesh, UnityEngine.CoreModule:Library/unity
+        default resources:Capsule
+    - object: {fileID: 2800000, guid: 74878ed87f7bf5542b9ef4983cd51558, type: 3}
+      guid: 74878ed87f7bf5542b9ef4983cd51558
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/uv_unwrapped_texture.png:uv_unwrapped_texture
+    - object: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+      guid: e2f7c378585b4450bc28b90e89e4e5c8
+      assetBundlePath: Builtin:UnityEngine.Mesh, UnityEngine.CoreModule:Library/unity
+        default resources:Plane
+    - object: {fileID: 2100000, guid: ce7ded85380eadb459a8560bcab70444, type: 2}
+      guid: ce7ded85380eadb459a8560bcab70444
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Materials/flyer1.mat:flyer1
+    - object: {fileID: 4611759551533685079, guid: ce8525b80f68b5841acf57e5264c36fa, type: 3}
+      guid: ce8525b80f68b5841acf57e5264c36fa
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/small_board.mtl.obj:Material_0
+    - object: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+      guid: 8e161a00bc0844259693152f5885fcd1
+      assetBundlePath: Builtin:UnityEngine.Mesh, UnityEngine.CoreModule:Library/unity
+        default resources:Sphere
