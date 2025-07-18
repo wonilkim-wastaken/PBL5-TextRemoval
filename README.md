@@ -11,7 +11,6 @@ This project was created as a school project.
   - Numpy (1.24.4)
   - OpenCV (4.7.0.72)
   - EasyOCR (1.7.2)
-  - Pandas
 
 ## How to Run
 1. Download the project files and place the folder in a location of your choice.  
