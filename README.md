@@ -30,7 +30,7 @@ To find following files, see [File Structure](https://github.com/wonilkim-wastak
   Locate the following lines near the top of the file:
 
   ```csharp
-  public string pythonPath;
+  public string pythonPath; //Absolute path to your Python intepreter
   ```
   Update path to match your own system, for example:
    ```csharp
