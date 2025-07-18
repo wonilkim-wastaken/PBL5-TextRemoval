@@ -168,5 +168,5 @@ After eight seconds, black screen will come back to cover the objects in the sce
 Also, recorded gaze will be saved in **'GazeLogs'** fodler.
 
 ## Author
-Name: Wonil Kim
+Name: Wonil Kim  
 Email: is0646ep@ed.ritsumei.ac.jp
