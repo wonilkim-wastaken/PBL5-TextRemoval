@@ -106,12 +106,12 @@ It handles Python execution and texture management through the following scripts
 
 #### OCR_init
 - **Python Path**: Absolute path to your Python interpreter.
-- **Script Path**: Path to `text_detection.py` (located in `Assets/PythonScripts`). Adjust according to your file system.
+- **Script Path**: Path to `text_detection.py` (located in `Assets/PythonScripts`).
 - **Selected Set**: Choose the test set (1 to 3).
 
 #### MultiStepTextRemoval
 - **Python Path**: Absolute path to your Python interpreter.
-- **Script Path**: Path to `text_removal_mult.py` (in `Assets/PythonScripts`). Adjust according to your file system.
+- **Script Path**: Path to `text_removal_mult.py` (in `Assets/PythonScripts`).
 - **Peak Path**: Path to `peak.txt`, which specifies the partial removal height.
 - **Selected Set**: Choose the test set (1 to 3).
 
@@ -122,7 +122,7 @@ If you disable the script, the object texture will not be changed when the exper
 
 #### ObjectTextureWatcher
 - **Texture File Name**: Name of the texture image to be used.
-- **Folder Path**: Path to the directory containing output textures (e.g., `Assets/inpaint_out`). Adjust according to your file system.
+- **Folder Path**: Path to the directory containing output textures (e.g., `Assets/inpaint_out`).
 
 > 💡 You can enable or disable this script on each object to control whether it will be affected during the experiment.
 
