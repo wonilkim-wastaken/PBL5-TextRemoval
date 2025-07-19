@@ -34,7 +34,7 @@ To find following files, see [File Structure](https://github.com/wonilkim-wastak
   Locate the following lines near the top of the file:
 
   ```csharp
-  public string pythonPath; //Absolute path to your Python intepreter
+  public string pythonPath; //Absolute path to your Python interpreter
   ```
   Update path to match your own system, for example:
    ```csharp
@@ -91,11 +91,11 @@ Key directories inside the `vr_env/Assets` folder:
   
 - **inpaint_out/**  
   Output directory for inpainted images with removed text.
-> ⚠️ This folder should be empied after each experiment!
+> ⚠️ This folder should be emptied after each experiment!
   
 - **ocr_out/**  
   Contains OCR-processed data including detected text regions and coordinates.
-> ⚠️ This folder should be empied after each experiment!
+> ⚠️ This folder should be emptied after each experiment!
   
 - **PythonScripts/**  
   Contains all Python scripts for text detection and image inpainting.
@@ -179,7 +179,7 @@ Then, you can start experiment by pressing **space bar** key.
 When the experiment is initiated, black screen will be gone it will record participants' gaze for *eight seconds*.  
 
 After eight seconds, black screen will come back to cover the objects in the scene.  
-Also, recorded gaze will be saved in **'GazeLogs'** fodler.
+Also, recorded gaze will be saved in **'GazeLogs'** folder.
 
 ## Author
 Name: Wonil Kim  
