@@ -143,6 +143,8 @@ This number can be used to determine which image in the selected set will have i
 
 This helps ensure participants are presented with images in a randomized sequence for each session.
 
+> ❗ You need to manually run this to randomize!
+
 ## Experimental Environment
 
 The VR scene consists of a simple room where six flyer objects are positioned in a semicircle around the participant's viewpoint.  
