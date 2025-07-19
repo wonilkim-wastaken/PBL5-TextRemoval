@@ -12,9 +12,9 @@ This project was created as a school project.
   - OpenCV (4.7.0.72)
   - EasyOCR (1.7.2)
 
-### Tested Environment
-- Windows 10
-- Meta Quest 3S
+## Tested Environment
+- **Operating System**: Windows 10
+- **VR Headset**: Meta Quest 3s (Connected to PC via cable)
 
 ## How to Run
 1. Download the project files and place the folder in a location of your choice.  
