@@ -12,6 +12,10 @@ This project was created as a school project.
   - OpenCV (4.7.0.72)
   - EasyOCR (1.7.2)
 
+### Tested Environment
+- Windows 10
+- Meta Quest 3S
+
 ## How to Run
 1. Download the project files and place the folder in a location of your choice.  
 2. Open [**Unity Hub**](https://unity.com/download).  
@@ -125,6 +129,8 @@ If you disable the script, the object texture will not be changed when the exper
 - **Folder Path**: Path to the directory containing output textures (e.g., `Assets/inpaint_out`).
 
 > 💡 You can enable or disable this script on each object to control whether it will be affected during the experiment.
+
+> ⚠️ Even if you don't want to update the objects, you need to configure the scripts!
 
 ### randomizer.py
 This Python script is located in `Assets/ImageTextures` folder.  
