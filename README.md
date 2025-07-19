@@ -87,9 +87,11 @@ Key directories inside the `vr_env/Assets` folder:
   
 - **inpaint_out/**  
   Output directory for inpainted images with removed text.
+> ⚠️ This folder should be empied after each experiment!
   
 - **ocr_out/**  
   Contains OCR-processed data including detected text regions and coordinates.
+> ⚠️ This folder should be empied after each experiment!
   
 - **PythonScripts/**  
   Contains all Python scripts for text detection and image inpainting.
